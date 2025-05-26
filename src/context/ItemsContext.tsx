@@ -5,9 +5,9 @@ interface Item {
   id: string;
   name: string;
   imageFilename?: string;
-  value?: number;
+  value: number;
   type: string;
-  rarity?: string;
+  rarity: string;
   craftable: boolean;
   craftableUsing?: Array<{
     itemId: string;
