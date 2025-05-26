@@ -74,8 +74,7 @@ const Home: React.FC = () => {
           <div className="lg:col-span-3">
             <div className="bg-[#1a1433] bg-opacity-50 backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-[#2d1b69] shadow-2xl">
               <div className="max-w-2xl mx-auto py-4 sm:py-6 lg:max-w-7xl lg:px-8">
-                <h2 className="text-2xl font-display text-white mb-6 tracking-wider">ITEM CATALOG</h2>
-                
+                                
                 {filteredItems.length === 0 ? (
                   <div className="text-center py-12 bg-[#1a1433] bg-opacity-50 rounded-lg border border-dashed border-[#2d1b69] p-8">
                     <svg
