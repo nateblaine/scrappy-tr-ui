@@ -1,0 +1,43 @@
+{
+  "name": "item-catalog",
+  "version": "1.0.0",
+  "description": "A responsive item catalog application built with React and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "tailwindcss",
+    "catalog"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@headlessui/react": "^2.2.4",
+    "@heroicons/react": "^2.2.0",
+    "@tanstack/react-query": "^5.76.2",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@types/node": "^20.17.50",
+    "@vitejs/plugin-react": "^4.5.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "postcss-import": "^16.1.0",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.0.0",
+    "vite": "^5.4.19"
+  }
+}
