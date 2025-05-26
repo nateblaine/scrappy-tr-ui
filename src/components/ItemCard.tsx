@@ -5,7 +5,7 @@ interface ItemCardProps {
   item: {
     id: string;
     name: string;
-    imageFilename: string;
+    imageFilename?: string;
     value: number;
     type: string;
     rarity: string;
@@ -38,15 +38,6 @@ const ItemCard: React.FC<ItemCardProps> = ({ item }) => {
                 <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"></path>
               </svg>
             </div>
-            {/* Uncomment when you have images
-            <img
-              src={item.imageFilename}
-              alt={item.name}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-              onError={(e) => {
-                (e.target as HTMLImageElement).src = 'https://via.placeholder.com/150?text=No+Image';
-              }}
-            /> */}
           </div>
           
           {/* Item Info */}
