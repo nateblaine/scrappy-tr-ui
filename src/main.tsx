@@ -14,7 +14,7 @@ try {
     telemetries: ["performance"],
     allowCookies: true,
     enableXRay: false,
-    signing: true
+    signing: false
   };
 
   const APPLICATION_ID = '66c01d4f-61fc-49cc-872b-8aa19c48ffd0';
